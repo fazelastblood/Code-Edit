@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.12/ace.js" integrity="sha512-GZ1RIgZaSc8rnco/8CXfRdCpDxRCphenIiZ2ztLy3XQfCbQUSCuk8IudvNHxkRA3oUg6q0qejgN/qqyG1duv5Q==" crossorigin="anonymous"></script>
+    <style>
+        html,body {
+            margin: 0;
+            padding: 0;
+            height:100%;
+            width: 100%;
+            overflow: hidden;
+        }
+        #editor {
+            height: 100%;
+            width: 50%;
+            display: inline-block;
+        }
+        #iframe {
+            height: 100%;
+            display: inline-block;
+            width: 50%;
+        }
+        #container {
+            height: 100%;
+            width: auto;;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+        .absolute {
+            color: black;
+            position: relative;
+            top: 97%;
+            left: 72%;
+        }
+
+        .absolute a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div class="absolute">
+            <a href="https://github.com/fazelastblood">Check Out My Work In coding</a>
+        </div>
+        <div id="editor">
+        </div>
+        <iframe id="iframe" frameborder="0"></iframe>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
